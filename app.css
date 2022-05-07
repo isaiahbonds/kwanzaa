@@ -114,3 +114,14 @@ h3 {
     /* line-height: 1.5em; */
     font-size: 1.25rem;
 }
+
+.navbar.scrolled {
+    background-color: rgba(44, 52, 58, .7);
+    transition: background 350ms;
+}
+
+@media (max-width:1200px) {
+    #headingGroup {
+        font-size: 3rem;
+    }
+}
