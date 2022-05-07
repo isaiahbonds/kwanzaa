@@ -1,0 +1,116 @@
+/* Kwanzaa Color Palatte Ideas:
+-----original----
+--phthalo-green(deep): #0d3026ff;
+--charleston-green(dark): #1c252aff;
+--mango: #fbbb14ff;
+--ruby-red: #8f1c27ff;
+--rich-black-fogra-39: #0d0d0fff;
+--pine-green: #14796dff;
+--medium-candy-apple-red: #e11f2fff;
+--gamboge(gold): #e29b0dff;
+--raisin-black: #272225ff;
+-----muted------
+--msu-green: #1f3e34ff;
+--gunmetal: #2c343aff;
+--vivid-burgundy: #953039ff;
+--harvest-gold: #d7922cff;
+--eerie-black: #1d1d1fff;
+--copper-red: #d1674dff;
+--olivine: #14796dff;
+-----RGBA------
+$msu-green: rgba(31, 62, 52, 1);
+$gunmetal: rgba(44, 52, 58, 1);
+$vivid-burgundy: rgba(149, 48, 57, 1);
+$harvest-gold: rgba(215, 146, 44, 1);
+$eerie-black: rgba(29, 29, 31, 1);
+$copper-red: rgba(209, 103, 77, 1);
+$olivine: rgba(152, 176, 111, 1);
+*/
+
+body {
+    background-color: #2c343aff;
+    color: #d7922cff;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+}
+
+.hero {
+    background: url(imgs/headwrap.jpg);
+    background-position: top left;
+    background-size: cover;
+    height: 80vh;
+    opacity: .8;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    letter-spacing: .9rem;
+    color: #d7922cff;
+}
+
+h3 {
+    color: #14796dff;
+}
+
+#navIcon {
+    color: #14796dff;
+    font-size: 3rem;
+}
+
+#nav a {
+    color: #d1674dff;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#nav a:hover {
+    color: #d7922cff;
+    text-decoration: underline;
+}
+
+
+.meaning {
+    color: #d1674dff;
+    font-weight: bolder;
+}
+
+.def {
+    text-transform: lowercase;
+    color: #14796dff;
+    font-weight: bolder;
+}
+
+.kCardBtn {
+    color: #d1674dff;
+    letter-spacing: .2rem;
+}
+
+.kCardBtn:hover,
+.kCardBtn:focus,
+.kLearn:hover {
+    color: #14796dff;
+}
+
+
+.kCardContent {
+    background-color: #2c343aff;
+    font-size: larger;
+}
+
+.kLearn {
+    color: #d1674dff;
+}
+
+.card {
+    border: none;
+}
+
+.card img {
+    height: 17rem;
+}
+
+#overview {
+    /* line-height: 1.5em; */
+    font-size: 1.25rem;
+}
